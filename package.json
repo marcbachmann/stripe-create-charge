@@ -1,0 +1,27 @@
+{
+  "name": "stripe-create-charge",
+  "version": "1.0.0",
+  "description": "A microservice to charge a credit card using a stripe token retrieved in a client side checkout process. See https://stripe.com/docs/checkout/tutorial for more details.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Marc Bachmann <marc.brookman@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "fastify": "^0.35.5",
+    "stripe": "^5.4.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcbachmann/stripe-create-charge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcbachmann/stripe-create-charge/issues"
+  },
+  "homepage": "https://github.com/marcbachmann/stripe-create-charge#readme"
+}
